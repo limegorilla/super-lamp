@@ -1,5 +1,6 @@
 import "./globals.css";
 
+import { Analytics } from "@vercel/analytics/react";
 import { Be_Vietnam_Pro, Space_Grotesk } from "next/font/google";
 
 export const metadata = {
@@ -23,6 +24,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
  return (
   <html lang="en" className={spaceGrotesk.variable}>
    <body className="grid h-screen place-items-center">{children}</body>
+   <Analytics />
   </html>
  );
 }
