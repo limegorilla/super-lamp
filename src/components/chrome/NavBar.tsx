@@ -91,7 +91,7 @@ export default function NavigationMenuDemo() {
                   A beautiful website for a beautiful me.
                 </ListItem>
                 <ListItem href="/docs/nothorror" title="nothorror">
-                  A horror game with no horror. Collage project made in Unreal.
+                  A horror game with no horror. College project made in Unreal.
                 </ListItem>
 
                 <div className="flex gap-2">
